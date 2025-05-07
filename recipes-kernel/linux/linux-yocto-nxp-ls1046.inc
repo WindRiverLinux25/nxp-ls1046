@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2024 Wind River Systems, Inc.
+# Copyright (C) 2025 Wind River Systems, Inc.
 #
 
 TARGET_SUPPORTED_KTYPES:nxp-ls1046 = "standard preempt-rt"

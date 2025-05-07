@@ -31,7 +31,7 @@ MACHINE_SOCARCH = "${TUNE_PKGARCH}"
 BSP_NXP_DERIVED:append:nxp-ls1046  = " nxp-ls1046"
 
 PREFERRED_PROVIDER_virtual/kernel ??= "linux-yocto"
-PREFERRED_VERSION_linux-yocto ?= "6.6%"
+PREFERRED_VERSION_linux-yocto ?= "6.12%"
 PREFERRED_VERSION_dpdk = "22.11"
 
 NON_MULTILIB_RECIPES:append = " rcw"
