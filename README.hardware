@@ -23,8 +23,8 @@ This BSP supports the following boards:
 2. Change History
 =================
 
-  - 2024/10 (LINUXPG-2315): Wind River Linux 10.24 RCPL02. Standard and preempt-rt
-		       based on NXP Layerscape Linux Distribution POC L6.6.3-1.0.0.
+  - 2025/09 (LINUXPG-2603): Wind River Linux 10.25 RCPL01. Standard and preempt-rt
+		       based on NXP Layerscape Yocto SDK ls-6.12.3-1.0.0
 
 3. BSP Features
 ===============
@@ -95,14 +95,14 @@ LS1046A rev1.0:
 	Processor:              LS1046AE Rev1.0 (0x87070010)
 	Board Revision:	        REV B2/C, CPLD: V2.3, PCBA: V2.0
 	BootLoader:             U-Boot
-	BootLoader Version:     U-Boot 2023.04+gf8a2983ec8+p0 (Mar 04 2024 - 07:25:04 +0000)
+	BootLoader Version:     U-Boot 2024.04+fsl+ge3219a5a734+p0 (Feb 18 2025 - 04:03:02 +0000)
 	FMAN Firmware:          106.4.18
 
 LS1026A rev1.0:
 	Processor:              LS1026AE Rev1.0 (0x87070810)
 	Board Revision:	        REV B2/C, CPLD: V2.3, PCBA: V2.0
 	BootLoader:             U-Boot
-	BootLoader Version:     U-Boot 2023.04+gf8a2983ec8+p0 (Mar 04 2024 - 07:25:04 +0000)
+	BootLoader Version:     U-Boot 2024.04+fsl+ge3219a5a734+p0 (Feb 18 2025 - 04:03:02 +0000)
 	FMAN Firmware:          106.4.18
 
 
