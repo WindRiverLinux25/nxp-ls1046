@@ -396,9 +396,9 @@ and then build WRLinux image as usual.
 	BB_NO_NETWORK = '0'
 	ACCEPT_FSL_EULA = "1"
 	CUSTOMER_BUILD_BOOTLOADER = "1"
-	CUSTOMER_RECIPES:meta-qoriq += 'secure-boot-qoriq'
-	CUSTOMER_RECIPES:meta-qoriq += 'u-boot-qoriq'
-	CUSTOMER_RECIPES:meta-qoriq += 'qoriq-atf'
+	CUSTOMER_RECIPES:qoriq-bsp-release += 'secure-boot-qoriq'
+	CUSTOMER_RECIPES:qoriq-bsp-release += 'u-boot-qoriq'
+	CUSTOMER_RECIPES:qoriq-bsp-release += 'qoriq-atf'
 	CUSTOMER_RECIPES:freescale-layer += 'fm-ucode'
 	CUSTOMER_RECIPES:freescale-layer += 'qe-ucode'
 	CUSTOMER_RECIPES:freescale-layer += 'qoriq-cst-native'
